@@ -11,6 +11,10 @@
 		9DCA8E9F2BDFA7E40061057F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA8E9E2BDFA7E40061057F /* ContentView.swift */; };
 		9DCA8EA12BDFA7E60061057F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EA02BDFA7E60061057F /* Assets.xcassets */; };
 		9DCA8EA42BDFA7E60061057F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */; };
+		9DCA8EAC2BDFBA6A0061057F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EAA2BDFBA6A0061057F /* Inter-Regular.ttf */; };
+		9DCA8EAD2BDFBA6A0061057F /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EAB2BDFBA6A0061057F /* Inter-Bold.ttf */; };
+		9DCA8EB02BDFBACC0061057F /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA8EAF2BDFBACC0061057F /* Font+Extension.swift */; };
+		9DCA8EB22BDFD63C0061057F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA8EB12BDFD63C0061057F /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		9DCA8E9E2BDFA7E40061057F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DCA8EA02BDFA7E60061057F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DCA8EAA2BDFBA6A0061057F /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		9DCA8EAB2BDFBA6A0061057F /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		9DCA8EAE2BDFBA900061057F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9DCA8EAF2BDFBACC0061057F /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		9DCA8EB12BDFD63C0061057F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +60,14 @@
 		9DCA8E9B2BDFA7E40061057F /* SUI */ = {
 			isa = PBXGroup;
 			children = (
+				9DCA8EAE2BDFBA900061057F /* Info.plist */,
 				9DCA8E9C2BDFA7E40061057F /* SUIApp.swift */,
 				9DCA8E9E2BDFA7E40061057F /* ContentView.swift */,
+				9DCA8EB12BDFD63C0061057F /* AlertView.swift */,
+				9DCA8EAF2BDFBACC0061057F /* Font+Extension.swift */,
 				9DCA8EA02BDFA7E60061057F /* Assets.xcassets */,
+				9DCA8EAB2BDFBA6A0061057F /* Inter-Bold.ttf */,
+				9DCA8EAA2BDFBA6A0061057F /* Inter-Regular.ttf */,
 				9DCA8EA22BDFA7E60061057F /* Preview Content */,
 			);
 			path = SUI;
@@ -126,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DCA8EA42BDFA7E60061057F /* Preview Assets.xcassets in Resources */,
+				9DCA8EAC2BDFBA6A0061057F /* Inter-Regular.ttf in Resources */,
+				9DCA8EAD2BDFBA6A0061057F /* Inter-Bold.ttf in Resources */,
 				9DCA8EA12BDFA7E60061057F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DCA8E9F2BDFA7E40061057F /* ContentView.swift in Sources */,
+				9DCA8EB22BDFD63C0061057F /* AlertView.swift in Sources */,
 				9DCA8E9D2BDFA7E40061057F /* SUIApp.swift in Sources */,
+				9DCA8EB02BDFBACC0061057F /* Font+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,13 +292,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,11 +323,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
