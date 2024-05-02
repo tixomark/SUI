@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DABA7FB2BE384C500311576 /* Long Road Out Of Eden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DABA7F52BE384C300311576 /* Long Road Out Of Eden.mp3 */; };
+		9DABA7FC2BE384C500311576 /* Ghost In the Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DABA7F62BE384C400311576 /* Ghost In the Rain.mp3 */; };
+		9DABA7FD2BE384C500311576 /* The Magic of Friendship Grows.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DABA7F72BE384C400311576 /* The Magic of Friendship Grows.mp3 */; };
+		9DABA7FE2BE384C500311576 /* Novocaine For The Soul.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DABA7F82BE384C400311576 /* Novocaine For The Soul.mp3 */; };
+		9DABA7FF2BE384C500311576 /* Valley Of The Damned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DABA7F92BE384C500311576 /* Valley Of The Damned.mp3 */; };
+		9DABA8002BE384C500311576 /* Lithium Flower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DABA7FA2BE384C500311576 /* Lithium Flower.mp3 */; };
+		9DABA8032BE3852900311576 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABA8022BE3852900311576 /* PlayerViewModel.swift */; };
+		9DABA8052BE38F0F00311576 /* TrackInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABA8042BE38F0F00311576 /* TrackInfoView.swift */; };
 		9DCA8E9D2BDFA7E40061057F /* SUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA8E9C2BDFA7E40061057F /* SUIApp.swift */; };
 		9DCA8E9F2BDFA7E40061057F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA8E9E2BDFA7E40061057F /* ContentView.swift */; };
 		9DCA8EA12BDFA7E60061057F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EA02BDFA7E60061057F /* Assets.xcassets */; };
 		9DCA8EA42BDFA7E60061057F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */; };
+		9DEB1F032BE3AF2700415CB2 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F022BE3AF2700415CB2 /* ControlsView.swift */; };
+		9DEB1F052BE3CA9E00415CB2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F042BE3CA9E00415CB2 /* Track.swift */; };
+		9DEB1F072BE43DA700415CB2 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F062BE43DA700415CB2 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DABA7F52BE384C300311576 /* Long Road Out Of Eden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Long Road Out Of Eden.mp3"; sourceTree = "<group>"; };
+		9DABA7F62BE384C400311576 /* Ghost In the Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ghost In the Rain.mp3"; sourceTree = "<group>"; };
+		9DABA7F72BE384C400311576 /* The Magic of Friendship Grows.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Magic of Friendship Grows.mp3"; sourceTree = "<group>"; };
+		9DABA7F82BE384C400311576 /* Novocaine For The Soul.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Novocaine For The Soul.mp3"; sourceTree = "<group>"; };
+		9DABA7F92BE384C500311576 /* Valley Of The Damned.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Valley Of The Damned.mp3"; sourceTree = "<group>"; };
+		9DABA7FA2BE384C500311576 /* Lithium Flower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lithium Flower.mp3"; sourceTree = "<group>"; };
+		9DABA8022BE3852900311576 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		9DABA8042BE38F0F00311576 /* TrackInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfoView.swift; sourceTree = "<group>"; };
 		9DCA8E992BDFA7E40061057F /* SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCA8E9C2BDFA7E40061057F /* SUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIApp.swift; sourceTree = "<group>"; };
 		9DCA8E9E2BDFA7E40061057F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DCA8EA02BDFA7E60061057F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DEB1F022BE3AF2700415CB2 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		9DEB1F042BE3CA9E00415CB2 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		9DEB1F062BE43DA700415CB2 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DABA8012BE384DB00311576 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				9DABA7F62BE384C400311576 /* Ghost In the Rain.mp3 */,
+				9DABA7FA2BE384C500311576 /* Lithium Flower.mp3 */,
+				9DABA7F52BE384C300311576 /* Long Road Out Of Eden.mp3 */,
+				9DABA7F82BE384C400311576 /* Novocaine For The Soul.mp3 */,
+				9DABA7F72BE384C400311576 /* The Magic of Friendship Grows.mp3 */,
+				9DABA7F92BE384C500311576 /* Valley Of The Damned.mp3 */,
+			);
+			path = Tracks;
+			sourceTree = "<group>";
+		};
 		9DCA8E902BDFA7E40061057F = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				9DCA8E9C2BDFA7E40061057F /* SUIApp.swift */,
-				9DCA8E9E2BDFA7E40061057F /* ContentView.swift */,
+				9DEB1F1B2BE557A600415CB2 /* View */,
+				9DABA8022BE3852900311576 /* PlayerViewModel.swift */,
+				9DEB1F042BE3CA9E00415CB2 /* Track.swift */,
+				9DEB1F1A2BE5579E00415CB2 /* Extensions */,
 				9DCA8EA02BDFA7E60061057F /* Assets.xcassets */,
+				9DABA8012BE384DB00311576 /* Tracks */,
 				9DCA8EA22BDFA7E60061057F /* Preview Content */,
 			);
 			path = SUI;
@@ -65,6 +104,24 @@
 				9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DEB1F1A2BE5579E00415CB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DEB1F062BE43DA700415CB2 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DEB1F1B2BE557A600415CB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DCA8E9E2BDFA7E40061057F /* ContentView.swift */,
+				9DABA8042BE38F0F00311576 /* TrackInfoView.swift */,
+				9DEB1F022BE3AF2700415CB2 /* ControlsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +182,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DABA7FD2BE384C500311576 /* The Magic of Friendship Grows.mp3 in Resources */,
+				9DABA7FE2BE384C500311576 /* Novocaine For The Soul.mp3 in Resources */,
 				9DCA8EA42BDFA7E60061057F /* Preview Assets.xcassets in Resources */,
+				9DABA8002BE384C500311576 /* Lithium Flower.mp3 in Resources */,
+				9DABA7FB2BE384C500311576 /* Long Road Out Of Eden.mp3 in Resources */,
+				9DABA7FC2BE384C500311576 /* Ghost In the Rain.mp3 in Resources */,
 				9DCA8EA12BDFA7E60061057F /* Assets.xcassets in Resources */,
+				9DABA7FF2BE384C500311576 /* Valley Of The Damned.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DABA8032BE3852900311576 /* PlayerViewModel.swift in Sources */,
+				9DEB1F072BE43DA700415CB2 /* UIImage+Extension.swift in Sources */,
 				9DCA8E9F2BDFA7E40061057F /* ContentView.swift in Sources */,
+				9DABA8052BE38F0F00311576 /* TrackInfoView.swift in Sources */,
+				9DEB1F032BE3AF2700415CB2 /* ControlsView.swift in Sources */,
 				9DCA8E9D2BDFA7E40061057F /* SUIApp.swift in Sources */,
+				9DEB1F052BE3CA9E00415CB2 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +340,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KV44Y72Q9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,6 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KV44Y72Q9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
