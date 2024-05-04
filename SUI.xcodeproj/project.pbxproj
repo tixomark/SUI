@@ -11,6 +11,11 @@
 		9DCA8E9F2BDFA7E40061057F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA8E9E2BDFA7E40061057F /* ContentView.swift */; };
 		9DCA8EA12BDFA7E60061057F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EA02BDFA7E60061057F /* Assets.xcassets */; };
 		9DCA8EA42BDFA7E60061057F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */; };
+		9DEB1F1F2BE6791800415CB2 /* VpnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F1E2BE6791800415CB2 /* VpnView.swift */; };
+		9DEB1F212BE6796000415CB2 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F202BE6796000415CB2 /* PurchaseView.swift */; };
+		9DEB1F232BE6797A00415CB2 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F222BE6797A00415CB2 /* BasketView.swift */; };
+		9DEB1F282BE6A27000415CB2 /* SubscriptionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F272BE6A27000415CB2 /* SubscriptionOption.swift */; };
+		9DEB1F2A2BE6A5FD00415CB2 /* VpnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F292BE6A5FD00415CB2 /* VpnViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		9DCA8E9E2BDFA7E40061057F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DCA8EA02BDFA7E60061057F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DEB1F1E2BE6791800415CB2 /* VpnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnView.swift; sourceTree = "<group>"; };
+		9DEB1F202BE6796000415CB2 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		9DEB1F222BE6797A00415CB2 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		9DEB1F272BE6A27000415CB2 /* SubscriptionOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionOption.swift; sourceTree = "<group>"; };
+		9DEB1F292BE6A5FD00415CB2 /* VpnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				9DCA8E9C2BDFA7E40061057F /* SUIApp.swift */,
 				9DCA8E9E2BDFA7E40061057F /* ContentView.swift */,
+				9DEB1F1E2BE6791800415CB2 /* VpnView.swift */,
+				9DEB1F202BE6796000415CB2 /* PurchaseView.swift */,
+				9DEB1F222BE6797A00415CB2 /* BasketView.swift */,
+				9DEB1F272BE6A27000415CB2 /* SubscriptionOption.swift */,
+				9DEB1F292BE6A5FD00415CB2 /* VpnViewModel.swift */,
 				9DCA8EA02BDFA7E60061057F /* Assets.xcassets */,
 				9DCA8EA22BDFA7E60061057F /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEB1F232BE6797A00415CB2 /* BasketView.swift in Sources */,
+				9DEB1F282BE6A27000415CB2 /* SubscriptionOption.swift in Sources */,
 				9DCA8E9F2BDFA7E40061057F /* ContentView.swift in Sources */,
+				9DEB1F1F2BE6791800415CB2 /* VpnView.swift in Sources */,
 				9DCA8E9D2BDFA7E40061057F /* SUIApp.swift in Sources */,
+				9DEB1F212BE6796000415CB2 /* PurchaseView.swift in Sources */,
+				9DEB1F2A2BE6A5FD00415CB2 /* VpnViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +292,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KV44Y72Q9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KV44Y72Q9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
