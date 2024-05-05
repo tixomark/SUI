@@ -11,6 +11,15 @@
 		9DCA8E9F2BDFA7E40061057F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA8E9E2BDFA7E40061057F /* ContentView.swift */; };
 		9DCA8EA12BDFA7E60061057F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EA02BDFA7E60061057F /* Assets.xcassets */; };
 		9DCA8EA42BDFA7E60061057F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */; };
+		9DEB1F092BE4BA6E00415CB2 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F082BE4BA6E00415CB2 /* Font+Extension.swift */; };
+		9DEB1F0C2BE4BC0300415CB2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F0B2BE4BC0300415CB2 /* Car.swift */; };
+		9DEB1F0E2BE4C6F300415CB2 /* CarSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F0D2BE4C6F300415CB2 /* CarSelectorView.swift */; };
+		9DEB1F102BE4F47000415CB2 /* CarConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F0F2BE4F47000415CB2 /* CarConfigurationView.swift */; };
+		9DEB1F122BE4F4A900415CB2 /* UISegmentedControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F112BE4F4A900415CB2 /* UISegmentedControl+Extension.swift */; };
+		9DEB1F142BE4FF3500415CB2 /* InfoFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F132BE4FF3500415CB2 /* InfoFieldView.swift */; };
+		9DEB1F162BE511A500415CB2 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F152BE511A500415CB2 /* UIImage+Extension.swift */; };
+		9DEB1F182BE53E7A00415CB2 /* ConfiguratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F172BE53E7A00415CB2 /* ConfiguratorViewModel.swift */; };
+		9DEB1F1D2BE55E5700415CB2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB1F1C2BE55E5700415CB2 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		9DCA8E9E2BDFA7E40061057F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DCA8EA02BDFA7E60061057F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DEB1F082BE4BA6E00415CB2 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		9DEB1F0B2BE4BC0300415CB2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9DEB1F0D2BE4C6F300415CB2 /* CarSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectorView.swift; sourceTree = "<group>"; };
+		9DEB1F0F2BE4F47000415CB2 /* CarConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarConfigurationView.swift; sourceTree = "<group>"; };
+		9DEB1F112BE4F4A900415CB2 /* UISegmentedControl+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extension.swift"; sourceTree = "<group>"; };
+		9DEB1F132BE4FF3500415CB2 /* InfoFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoFieldView.swift; sourceTree = "<group>"; };
+		9DEB1F152BE511A500415CB2 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		9DEB1F172BE53E7A00415CB2 /* ConfiguratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorViewModel.swift; sourceTree = "<group>"; };
+		9DEB1F1C2BE55E5700415CB2 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				9DCA8E9C2BDFA7E40061057F /* SUIApp.swift */,
-				9DCA8E9E2BDFA7E40061057F /* ContentView.swift */,
+				9DEB1F192BE5468300415CB2 /* View */,
+				9DEB1F172BE53E7A00415CB2 /* ConfiguratorViewModel.swift */,
+				9DEB1F0B2BE4BC0300415CB2 /* Car.swift */,
+				9DEB1F0A2BE4BBDB00415CB2 /* Extensions */,
 				9DCA8EA02BDFA7E60061057F /* Assets.xcassets */,
 				9DCA8EA22BDFA7E60061057F /* Preview Content */,
 			);
@@ -65,6 +86,28 @@
 				9DCA8EA32BDFA7E60061057F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DEB1F0A2BE4BBDB00415CB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DEB1F082BE4BA6E00415CB2 /* Font+Extension.swift */,
+				9DEB1F112BE4F4A900415CB2 /* UISegmentedControl+Extension.swift */,
+				9DEB1F152BE511A500415CB2 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DEB1F192BE5468300415CB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DCA8E9E2BDFA7E40061057F /* ContentView.swift */,
+				9DEB1F0D2BE4C6F300415CB2 /* CarSelectorView.swift */,
+				9DEB1F0F2BE4F47000415CB2 /* CarConfigurationView.swift */,
+				9DEB1F132BE4FF3500415CB2 /* InfoFieldView.swift */,
+				9DEB1F1C2BE55E5700415CB2 /* ActivityView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEB1F1D2BE55E5700415CB2 /* ActivityView.swift in Sources */,
+				9DEB1F0E2BE4C6F300415CB2 /* CarSelectorView.swift in Sources */,
+				9DEB1F142BE4FF3500415CB2 /* InfoFieldView.swift in Sources */,
 				9DCA8E9F2BDFA7E40061057F /* ContentView.swift in Sources */,
+				9DEB1F162BE511A500415CB2 /* UIImage+Extension.swift in Sources */,
 				9DCA8E9D2BDFA7E40061057F /* SUIApp.swift in Sources */,
+				9DEB1F0C2BE4BC0300415CB2 /* Car.swift in Sources */,
+				9DEB1F102BE4F47000415CB2 /* CarConfigurationView.swift in Sources */,
+				9DEB1F182BE53E7A00415CB2 /* ConfiguratorViewModel.swift in Sources */,
+				9DEB1F092BE4BA6E00415CB2 /* Font+Extension.swift in Sources */,
+				9DEB1F122BE4F4A900415CB2 /* UISegmentedControl+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +324,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KV44Y72Q9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,6 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KV44Y72Q9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
